@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1gEobZbVOlOZ6ZYR75H2kBBTgiEND+JSmvopSMQX/rE1dJU0itYUTil7DZFrW4mVHFjk64K/n9HcSeislu4MtA==",
+  "dgSpecHash": "kDiwZNz6m6HPJa/V7wd26B5vpb3j/QGcgYY66jJYAowBDnAX8ItWbhOVo585dgl9NbS7ghZPQjgpaHScuu5jMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\Documents\\Cursos\\ASP.NET Core MVC - Macoratti\\_projeto\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

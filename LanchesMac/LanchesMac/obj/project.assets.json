@@ -9467,11 +9467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vitor\\Documents\\Cursos\\ASP.NET Core MVC - Macoratti\\_projeto\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+      "projectUniqueName": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
       "projectName": "LanchesMac",
-      "projectPath": "C:\\Users\\vitor\\Documents\\Cursos\\ASP.NET Core MVC - Macoratti\\_projeto\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+      "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
       "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vitor\\Documents\\Cursos\\ASP.NET Core MVC - Macoratti\\_projeto\\LanchesMac\\LanchesMac\\obj\\",
+      "outputPath": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
