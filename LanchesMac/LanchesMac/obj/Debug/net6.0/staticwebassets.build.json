@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZVWhujnNA899aah9j0jxqywi95ObR778KBxn4OuqFi8=",
+  "Hash": "eEuIU3wg4a4d863kbXh/zCTgKj7+RjQaXbVvUhmuGbo=",
   "Source": "LanchesMac",
   "BasePath": "_content/LanchesMac",
   "Mode": "Default",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\images\\carousel13.jpg"
     },
     {
-      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\cart-5-16.png",
+      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\cart-5-16.ico",
       "SourceId": "LanchesMac",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\",
       "BasePath": "_content/LanchesMac",
-      "RelativePath": "images/cart-5-16.png",
+      "RelativePath": "images/cart-5-16.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cart-5-16.png"
+      "OriginalItemSpec": "wwwroot\\images\\cart-5-16.ico"
     },
     {
       "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\delete.png",
@@ -204,12 +204,12 @@
       "OriginalItemSpec": "wwwroot\\images\\faleconosco1.jpg"
     },
     {
-      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\Full-Cart-icon.png",
+      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\Full-Cart-icon.ico",
       "SourceId": "LanchesMac",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\",
       "BasePath": "_content/LanchesMac",
-      "RelativePath": "images/Full-Cart-icon.png",
+      "RelativePath": "images/Full-Cart-icon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Full-Cart-icon.png"
+      "OriginalItemSpec": "wwwroot\\images\\Full-Cart-icon.ico"
     },
     {
       "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\Home-iconred.png",
