@@ -213,7 +213,7 @@ namespace LanchesMac.Migrations
 
                     b.HasIndex("PedidoId");
 
-                    b.ToTable("PedidosDetalhe");
+                    b.ToTable("PedidoDetalhes");
                 });
 
             modelBuilder.Entity("LanchesMac.Models.CarrinhoCompraItem", b =>
