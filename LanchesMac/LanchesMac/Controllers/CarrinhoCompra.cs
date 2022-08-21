@@ -5,13 +5,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesMac.Controllers
 {
-    public class CarrinhoCompraController : Controller
+    public class CarrinhoCompra : Controller
     {
         private readonly ILancheRepository _lancheRepository;
-        private readonly CarrinhoCompra _carrinhoCompra;
+        private readonly Models.CarrinhoCompra _carrinhoCompra;
 
-        public CarrinhoCompraController(ILancheRepository lancheRepository, 
-            CarrinhoCompra carrinhoCompra)
+        public CarrinhoCompra(ILancheRepository lancheRepository,
+            Models.CarrinhoCompra carrinhoCompra)
         {
             _lancheRepository = lancheRepository;
             _carrinhoCompra = carrinhoCompra;
