@@ -5,12 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesMac.Controllers
 {
-    public class CarrinhoCompra : Controller
+    public class CarrinhoCompraController : Controller
     {
         private readonly ILancheRepository _lancheRepository;
         private readonly Models.CarrinhoCompra _carrinhoCompra;
 
-        public CarrinhoCompra(ILancheRepository lancheRepository,
+        public CarrinhoCompraController(ILancheRepository lancheRepository,
             Models.CarrinhoCompra carrinhoCompra)
         {
             _lancheRepository = lancheRepository;
@@ -33,9 +33,9 @@ namespace LanchesMac.Controllers
         public IActionResult AdicionarItemNoCarrinhoCompra(int lancheId)
         {
             var lancheSelecionado = _lancheRepository.Lanches
-                .FirstOrDefault(p => p.LancheId == lancheId);
+                                    .FirstOrDefault(p => p.LancheId == lancheId);
 
-            if(lancheSelecionado != null)
+            if (lancheSelecionado != null)
             {
                 _carrinhoCompra.AdicionarAoCarrinho(lancheSelecionado);
             }

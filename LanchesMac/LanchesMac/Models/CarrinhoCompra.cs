@@ -28,7 +28,7 @@ namespace LanchesMac.Models
             string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
 
             //atribui o id do carrinho na Sessão
-            session.SetString("carrinhoId", carrinhoId);
+            session.SetString("CarrinhoId", carrinhoId);
 
             //retorna o carrinho com o contexto e o Id atribuido ou obtido
             return new CarrinhoCompra(context)
