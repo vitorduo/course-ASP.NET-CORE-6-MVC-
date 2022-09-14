@@ -1,4 +1,5 @@
-﻿using LanchesMac.Repositories.Interfaces;
+﻿using LanchesMac.Models;
+using LanchesMac.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesMac.Controllers
@@ -6,9 +7,9 @@ namespace LanchesMac.Controllers
     public class PedidoController : Controller
     {
         private readonly IPedidoRepository _pedidoRepository;
-        private readonly CarrinhoCompraController _carrinhoCompra;
+        private readonly CarrinhoCompra _carrinhoCompra;
 
-        public PedidoController(IPedidoRepository pedidoRepository, CarrinhoCompraController carrinhoCompra)
+        public PedidoController(IPedidoRepository pedidoRepository, CarrinhoCompra carrinhoCompra)
         {
             _pedidoRepository = pedidoRepository;
             _carrinhoCompra = carrinhoCompra;
@@ -21,7 +22,7 @@ namespace LanchesMac.Controllers
         }
 
         [HttpPost]
-        public IActionResult Checkout (PedidoController pedido)
+        public IActionResult Checkout (Pedido pedido)
         {
             return View();
         }
