@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5cpdrxHFLvbBEgsKsW67aPH5aKrAYm0MWEiDGIAdP5k=",
+  "Hash": "yAhbTdqJr7TtfUFrwEl+2MJs2E7pHbElc6W8wMDjS0E=",
   "Source": "LanchesMac",
   "BasePath": "_content/LanchesMac",
   "Mode": "Default",
@@ -559,6 +559,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\login_48.png"
+    },
+    {
+      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\negado1.jpg",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/negado1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\negado1.jpg"
     },
     {
       "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\phone-app-icon.png",
