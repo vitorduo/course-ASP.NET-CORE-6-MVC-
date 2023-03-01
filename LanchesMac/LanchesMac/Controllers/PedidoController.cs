@@ -59,7 +59,7 @@ namespace LanchesMac.Controllers
                 _pedidoRepository.CriarPedido(pedido);
 
                 //define mensagens ao cliente
-                ViewBag.CheckoutCompletoMensagem = "Obeigado pelo seu pedido :)";
+                ViewBag.CheckoutCompletoMensagem = "Obrigado pelo seu pedido :)";
                 ViewBag.TotalPedido = _carrinhoCompra.GetCarrinhoCompraTotal();
 
                 //limpa o carrinho do cliente
