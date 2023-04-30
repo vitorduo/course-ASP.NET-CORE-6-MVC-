@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yAhbTdqJr7TtfUFrwEl+2MJs2E7pHbElc6W8wMDjS0E=",
+  "Hash": "UK3jvCCyEVCvQwAh/33fkxxMq0iBYleENSBzqjg6QMA=",
   "Source": "LanchesMac",
   "BasePath": "_content/LanchesMac",
   "Mode": "Default",
@@ -610,6 +610,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\registro1.png"
+    },
+    {
+      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\upload2.png",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/upload2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upload2.png"
+    },
+    {
+      "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\visualizar1.jpg",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/visualizar1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\visualizar1.jpg"
     },
     {
       "Identity": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\js\\site.js",
