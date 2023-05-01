@@ -30,7 +30,8 @@ public class Startup
             .AddDefaultTokenProviders();
 
         services.ConfigureApplicationCookie(options => options.AccessDeniedPath = "/Home/AccessDenied");
-        services.Configure<ConfigurationImagens>(Configuration.GetSection("NomePastaImagensProdutos"));
+
+        services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfigurationPastaImagens"));
 
         //services.Configure<IdentityOptions>(options =>
         //{
