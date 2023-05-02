@@ -133,6 +133,14 @@
       "PackagePath": "staticwebassets\\images\\phone-app-icon.png"
     },
     {
+      "Id": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\produtos\\pastaalho1.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\pastaalho1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\produtos\\pimenta1.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\pimenta1.jpg"
+    },
+    {
       "Id": "C:\\Users\\vitor\\Documents\\GitHub\\course-ASP.NET-CORE-6-MVC-\\LanchesMac\\LanchesMac\\wwwroot\\images\\registro1.png",
       "PackagePath": "staticwebassets\\images\\registro1.png"
     },
