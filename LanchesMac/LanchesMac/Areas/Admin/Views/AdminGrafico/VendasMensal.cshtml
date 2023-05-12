@@ -29,7 +29,7 @@
     }
     function GraficoVendasLanches(data) {
         var dataArray = [
-            ['Lanche', 'Quantidade', 'Valores(R$)']
+            ['Lanche', 'Quantidade', 'Valores(€)']
         ];
         $.each(data, function (i, item) {
             dataArray.push([item.lancheNome, item.lanchesQuantidade, item.lanchesValorTotal]);
@@ -53,7 +53,7 @@
                 minValue: 0
             },
             vAxis: {
-                title: 'Valor Total (em Reais)'
+                title: 'Valor Total (em Euros)'
             }
         };
         //preparar a visualização e defino o tipo de grafico e o local
