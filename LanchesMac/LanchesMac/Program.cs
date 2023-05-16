@@ -8,12 +8,15 @@ using System.Configuration;
 using LanchesMac.Services;
 using ReflectionIT.Mvc.Paging;
 using Microsoft.AspNetCore.Identity;
+using FastReport.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connetion = builder.Configuration.GetConnectionString("DefaultConnection");
    builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(connetion));
+
+FastReport.Utils.RegisteredObjects.AddConnection(typeof(MsSqlDataConnection));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
             .AddEntityFrameworkStores<AppDbContext>()
@@ -29,6 +32,7 @@ builder.Services.AddTransient<IPedidoRepository, PedidoRepository>();
 builder.Services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 builder.Services.AddScoped<RelatorioVendasService>();
 builder.Services.AddScoped<GraficoVendasService>();
+builder.Services.AddScoped<RelatorioLanchesService>();
 
 builder.Services.AddAuthorization(options =>
 {
@@ -68,6 +72,8 @@ else
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+
+app.UseFastReport();
 app.UseRouting();
 
 CriarPerfisUsuarios(app);
